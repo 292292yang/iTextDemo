@@ -73,7 +73,7 @@ public class TestPDFDemo2 {
         writer.close();
     }
     
-    
+    //无法生成文件
     public static void modifyPdf() throws DocumentException, IOException {
         PdfReader pdfReader = new PdfReader("E:/itext/test5.pdf");
         PdfStamper pdfStamper = new PdfStamper(pdfReader, new FileOutputStream("E:/itext/test6.pdf"));
